@@ -1,0 +1,5 @@
+.chatbox{
+  transform: translateZ(0px);
+  z-index: -1;
+  background-image: linear-gradient(117.67deg, #1b3b66, #0057ff, #caf4f7);
+}

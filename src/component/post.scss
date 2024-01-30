@@ -1,0 +1,55 @@
+// .like-icon {
+  
+//   .reacttion{
+//       @apply hidden duration-200
+//   }&:hover{
+//     .reacttion{
+//       @apply flex;
+//       li{
+//         @apply cursor-pointer
+//       }
+//     }
+//   }
+// }
+.nav{
+  .main-menu{
+    .active{
+      @apply  border-b-2 border-[#0866FF] text-[#0866FF]
+    }
+  }
+}
+.main-menu{
+  li{
+    a{
+      @apply hover:bg-slate-200 py-3 px-10 rounded-lg flex
+    }
+  }
+}
+.sidebar{
+  ul{
+    li{
+      a{
+        @apply flex gap-2 items-center text-[#050505] p-2 hover:bg-gray-300 rounded-lg
+      }
+    }
+  }
+}
+.messenger{
+  .heading{
+    .btn-group{
+      button{
+        @apply hover:bg-gray-200 p-2 rounded-full
+      }
+      
+    }
+  }
+}
+.sidebarright{
+  ul{
+    li{
+      a{
+        @apply flex gap-2 items-center text-[#050505] p-2 hover:bg-gray-300 rounded-lg
+      }
+    }
+  }
+}
